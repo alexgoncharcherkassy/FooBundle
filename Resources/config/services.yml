@@ -1,0 +1,6 @@
+services:
+
+  foobundle.command.hello:
+    class: FooBundle\Command\HelloCommand
+    tags:
+      - {name: 'chain_command', master: true}
