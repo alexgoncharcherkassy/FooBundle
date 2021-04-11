@@ -1,6 +1,6 @@
 services:
 
   foobundle.command.hello:
-    class: FooBundle\Command\HelloCommand
+    class: AlexGoncharCK\FooBundle\Command\HelloCommand
     tags:
       - {name: 'chain_command', master: true}
